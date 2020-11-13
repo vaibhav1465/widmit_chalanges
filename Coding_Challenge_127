@@ -1,0 +1,20 @@
+//link for challenge  https://www.instagram.com/p/BxurNHagskO/?utm_source=ig_web_copy_link
+#include<stdio.h>
+int main()
+{
+	int n,b,c,r,o,a;
+	printf("enter the values of a,c,b");
+	scanf("%d\n%d\n%d",&n,&c,&b);
+	o=n/c;
+	r=o;
+	while(o)
+	{
+	o=o-b;
+	if(o)
+	{
+		r++;
+		o++;
+	}
+	}
+	printf("output=%d",r+1);
+}
