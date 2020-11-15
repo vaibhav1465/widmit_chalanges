@@ -1,0 +1,12 @@
+//linlk for challenge https://www.instagram.com/p/ByVSZe2At9Q/?utm_source=ig_web_copy_link
+#include<stdio.h>
+int main()
+{
+	int n,s=0;
+	scanf("%d",&n);
+	while(n)
+	{
+		s+=--n;
+	}
+	printf("%d",s);
+}
